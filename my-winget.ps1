@@ -1,4 +1,5 @@
 winget install Twilio.Authy  ; 
+winget install WireGuard.WireGuard  ;
 winget install UnityTechnologies.UnityHub  ;
 winget install Piriform.CCleaner  ; 
 winget install Adobe.AdobeAcrobatReaderDC  ; 
