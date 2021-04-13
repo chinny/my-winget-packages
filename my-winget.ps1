@@ -20,3 +20,4 @@ winget install Anaconda.Anaconda3  ;
 winget install Lenovo.SystemUpdate  ;
 winget install Microsoft.VisualStudioCode-System-x64  ;
 winget install JohnMacFarlane.Pandoc  ;
+winget install RubyInstallerTeam.Ruby  ;
