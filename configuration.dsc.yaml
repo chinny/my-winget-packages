@@ -1,5 +1,4 @@
 # yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
-# Reference: https://github.com/dotnet/aspnetcore/blob/main/docs/BuildFromSource.md
 properties:
   resources:
     - resource: Microsoft.WinGet.DSC/WinGetPackage
@@ -15,5 +14,89 @@ properties:
         allowPrerelease: true
       settings:
         id: ShareX.ShareX
+        source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Notion
+        allowPrerelease: true
+      settings:
+        id: Notion.Notion
+        source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Visual Studio Code
+        allowPrerelease: true
+      settings:
+        id: Microsoft.VisualStudioCode
+        source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install 7zip
+        allowPrerelease: true
+      settings:
+        id: 7zip.7zip
+        source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Blender
+        allowPrerelease: true
+      settings:
+        id: BlenderFoundation.Blender
+        source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Calibre
+        allowPrerelease: true
+      settings:
+        id: KovidGoyal.Calibre
+        source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Google Chrome
+        allowPrerelease: true
+      settings:
+        id: Google.Chrome
+        source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Google Drive
+        allowPrerelease: true
+      settings:
+        id: Google.Drive
+        source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Handbrake
+        allowPrerelease: true
+      settings:
+        id: HandBrake.HandBrake
+        source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install OBS Studio
+        allowPrerelease: true
+      settings:
+        id: OBSProject.OBSStudio
+        source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Slack
+        allowPrerelease: true
+      settings:
+        id: SlackTechnologies.Slack
+        source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install TreeSize Free
+        allowPrerelease: true
+      settings:
+        id: JAMSoftware.TreeSizeFree
+        source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install VLC
+        allowPrerelease: true
+      settings:
+        id: VideoLAN.VLC
         source: winget
   configurationVersion: 0.2.0
