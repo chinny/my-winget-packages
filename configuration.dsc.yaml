@@ -99,4 +99,25 @@ properties:
       settings:
         id: VideoLAN.VLC
         source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Epic Games Launcher
+        allowPrerelease: true
+      settings:
+        id: EpicGames.EpicGamesLauncher
+        source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install EA App
+        allowPrerelease: true
+      settings:
+        id: ElectronicArts.EADesktop
+        source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Battle.net
+        allowPrerelease: true
+      settings:
+        id: Blizzard.BattleNet
+        source: winget
   configurationVersion: 0.2.0

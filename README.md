@@ -41,6 +41,9 @@ The following packages will be installed by the DSC configuration:
 - Slack: A messaging app for teams.
 - TreeSize Free: A disk space analyzer.
 - VLC: A free and open-source media player.
+- Epic Games Launcher: A digital distribution platform for video games.
+- EA App: A digital distribution platform for EA games.
+- Battle.net: A digital distribution platform for Blizzard games.
 
 ## Using the DSC Configuration
 The `configuration.dsc.yaml` file contains a list of packages to be installed using the Desired State Configuration (DSC) for winget.
